@@ -1,0 +1,249 @@
+[
+  {
+    "days": [
+      {
+        "day": "Lunedi",
+        "time": "11.30"
+      },
+      {
+        "day": "Mercoledi",
+        "time": "09.00"
+      }
+    ],
+    "id":"tra-le-righe",
+    "title": "Tra le righe",
+    "description": "La trasmissione dedicata alla letteratura e all’editoria, fatta di chi ci lavora e le ama. Recensioni di libri, interviste agli autori, dietro le quinte e approfondimenti su temi culturali a cura di Chili di Libri e Passaporto Nansen.",
+    "fullDescription":"<p>I libri hanno la capacità di distrarci, di farci sognare, di spaventarci, di farci ridere, di informarci, di farci entrare nei panni di un’altra persona, di sorprenderci e – perché no? – di farci pensare. È proprio a questi ultimi che è dedicata <strong>Tra le Righe, la rubrica dedicata ai romanzi</strong>, quelli belli (i brutti abbiamo deciso di non prenderli in considerazione). In particolare, nel rispetto della nostra linea editoriale, <strong>abbiamo pensato di privilegiare i libri con un connotato sociale</strong>.<p>Nel compiere l’impresa, <strong>ci avvaliamo della collaborazione del preparatissimo staff di <em>Chili di Libri</em></strong>, blog di recensioni di romanzi gestito da Anita e Daniela, la cui passione è pari solo alla loro professionalità. Attraverso le loro puntuali recensioni, presentiamo ai lettori di <em>FinestrAperta.it</em> e agli ascoltatori di <em>Radio FinestrAperta</em> storie intriganti, profonde, coinvolgenti, in grado di farci vivere le vite altrui come se fossero le nostre.</p><p>Il tutto senza mai dimenticarsi dei veri protagonisti del mondo dei libri, cioè degli <strong>scrittori: a <em>Tra le Righe</em> viene dato loro ampio spazio</strong>, in interviste in cui ci facciamo raccontare i dietro le quinte delle loro opere.</p><p>Tra le Righe: lunedì alle 11:30; mercoledì alle 9:00.</p>",
+    "image": "assets/img/podcasts/tra_le_righe.png"
+  },
+  {
+    "days": [
+      {
+        "day": "Lunedi",
+        "time": "11.30"
+      },
+      {
+        "day": "Venerdi",
+        "time": "11.30"
+      }
+    ],
+    "id":"emotivamente",
+    "title": "Emotivamente",
+    "description": "descrizione",
+    "fullDescription":"<p>La quotidianità, i valori, le esperienze personali, le convinzioni, ma anche le preoccupazioni, le manie, le fobie... La nostra vita è fatta di emozioni, che la alimentano e la condizionano.</p><p>La mente è un territorio vasto e in gran parte inesplorato, che necessita di essere compreso e preservato. Proprio per questo, i nostri esperti di psicologia sono a disposizione degli ascoltatori di <em>Radio FinestrAperta</em>, tramite a <strong><em>Emotivamente</em>, una trasmissione sui mille aspetti della psiche</strong>.</p><p>Di volta in volta viene analizzato un tema, dalle dipendenze alle ossessioni, dal bullismo alle questioni di genere, in modo accessibile e affatto accademico. Lo scopo di <em>Emotivamente</em> non è di insegnare niente a nessuno, ma di stimolare una sana riflessione su temi specifici.</p><p>Il pubblico può partecipare dicendo la propria o suggerendo nuovi argomenti da approfondire.</p><p><em>Emotivamente</em>: in diretta lunedì alle 11:30; in replica venerdì alle 11:30.</p>",
+    "image": "assets/img/podcasts/emotivamente.png"
+  },
+  {
+    "days": [
+      {
+        "day": "Lunedi",
+        "time": "14.15"
+      },
+      {
+        "day": "Mercoledi",
+        "time": "14.15"
+      },
+      {
+        "day": "Giovedi",
+        "time": "14.15"
+      },
+      {
+        "day": "Venerdi",
+        "time": "14.15"
+      },
+      {
+        "day": "Sabato",
+        "time": "14.15"
+      },
+      {
+        "day": "Domenica",
+        "time": "14.15"
+      },
+      {
+        "day": "Lunedi",
+        "time": "20.15"
+      },
+      {
+        "day": "Mercoledi",
+        "time": "20.15"
+      },
+      {
+        "day": "Giovedi",
+        "time": "20.15"
+      },
+      {
+        "day": "Venerdi",
+        "time": "20.15"
+      },
+      {
+        "day": "Sabato",
+        "time": "20.15"
+      },
+      {
+        "day": "Domenica",
+        "time": "20.15"
+      }
+    ],
+    "id":"rumore-in-aula",
+    "title": "Rumore in aula",
+    "description": "descrizione",
+    "fullDescription":"<p>Grazie anche al contributo degli ascoltatori - che possono inviare i propri quesiti alla redazione tramite i nostri contatti -, Emanuela Astolfi, presidente dell’associazione Avvocato del Cittadino, chiarisce questioni di natura legale di pubblico interesse e, in particolare, legati alle esigenze delle persone con disabilità. La Legge è più accessibile, grazie alle <strong>pillole di tutela legale</strong> di <em>Radio FinestrAperta</em>.</p><p><em>Rumore in Aula</em>: tutti i giorni alle 14:15 e alle 20:15, tranne il martedì.</p>",
+    "image": "assets/img/podcasts/rumore_in_aula.png"
+  },
+  {
+    "days": [
+      {
+        "day": "Lunedi",
+        "time": "14.30"
+      },
+      {
+        "day": "Venerdi",
+        "time": "11.30"
+      }
+    ],
+    "id":"roba-da-servizio-civile",
+    "title": "Roba da Servizio Civile",
+    "description": "Tutto quello che c’è da sapere sul volontariato. Informazioni utili per chi vuole intraprendere il Servizio Civile e testimonianze di chi l’ha già fatto.",
+    "fullDescription":"<p><strong><em>Roba da Servizio Civile</em> esplora il tema del volontariato</strong>, argomento che non può non starci a cuore, tant'è che di volontari è formata la nostra redazione. Tra di noi ci sono e ci sono stati volontari in Servizio Civile Nazionale, volontari del Servizio Volontario Europeo e volontari puri, gente che decide di dedicare del tempo alle nostre attività senza ricevere un compenso, ma per il semplice piacere di farlo. E la UILDM LAZIO onlus, cui questa web radio appartiene, è un’associazione nata con spirito volontaristico e che tutt’oggi promuove e fruisce del volontariato.</p><p>Di volta in volta ascolteremo esperienze, aneddoti e riflessioni di persone che hanno deciso di dedicare agli altri parte della propria vita. E chissà che qualcuno, ascoltandoli, non decida di mettere da parte i dubbi e tuffarsi in questa gratificante esperienza…</p><p><em>Roba da Servizio Civile</em>: lunedì alle 14:00; venerdì alle 11:30.</p>",
+    "image": "assets/img/podcasts/roba_da_servizio_civile.png"
+  },
+  {
+    "days": [
+      {
+        "day": "Lunedi",
+        "time": "17.00"
+      },
+      {
+        "day": "Martedi",
+        "time": "17.00"
+      },
+      {
+        "day": "Mercoledi",
+        "time": "17.00"
+      },
+      {
+        "day": "Giovedi",
+        "time": "17.00"
+      },
+      {
+        "day": "Venerdi",
+        "time": "17.00"
+      },
+      {
+        "day": "Sabato",
+        "time": "17.00"
+      },
+      {
+        "day": "Domenica",
+        "time": "17.00"
+      }
+    ],
+    "id":"dritte-e-diritti",
+    "title": "Dritte e diritti",
+    "description": "Il radiogiornale dedicato al sociale, a cura di Ghigliottina e dalSociale24, per trascorrere la settimana informati. Normativa, eventi, scoperte scientifiche, informazioni utili e curiosità.",
+    "fullDescription":"<p>La programmazione di <em>Radio FinestrAperta</em> non può prescindere dall’informazione. Ogni giorno va in onda <strong><em>Dritte e Diritti</em>, a cura di Ghigliottina e dalSociale24</strong>. È il nostro radiogiornale dedicato al sociale, con un occhio di riguardo ai temi della disabilità: nuove scoperte scientifiche, iniziative sul territorio, ausili, eventi culturali, novità dal mondo della politica e aggiornamenti legislativi. Il tutto corredato da interviste e approfondimenti.</p><p><em>Dritte e Diritti</em>: tutti i giorni alle 17:00.</p>",
+    "image": "assets/img/podcasts/dritte_e_diritti.png"
+  },
+  {
+    "days": [
+      {
+        "day": "Martedi",
+        "time": "13.30"
+      },
+      {
+        "day": "Venerdi",
+        "time": "09.00"
+      }
+    ],
+    "id":"un-anno-di-volonta",
+    "title": "Un anno di volontà",
+    "description": "I ragazzi del Servizio Volontario Europeo curano questa trasmissione, in cui il retaggio culturale di ognuno di loro contribuisce a dar vita a questo spazio decisamente cosmopolita.",
+    "fullDescription":"<p>Il Corpo Europeo di Solidarietà è un'iniziativa dell'Unione Europea, che offre ai giovani opportunità di volontariato nel proprio paese o nel resto d'Europa, con l'obiettivo di costruire una società più inclusiva.</p><p>La UILDM LAZIO, accreditata come ente di invio ed accoglienza in questo genere di progetti, ospita ogni anno volontari provenienti da diversi paesi, che prestano aiuto nelle attività associative e che entrano a far parte della nostra redazione, con tutto il loro bagaglio di cultura e la loro sete di conoscenza. Sono loro che gestiscono <em>Un Anno di Volontà</em>, <strong>una trasmissione dal respiro internazionale, nata con l’idea di intrattenere e informare su temi di attualità e vita quotidiana, senza dimenticare i valori e le attività alla base del programma Corpo Europeo di Solidarietà</strong>.</p><p><em>Un Anno di Volontà</em>: martedì alle 11:30; venerdì alle 9:00.</p>",
+    "image": "assets/img/podcasts/un_anno_di_volonta.png"
+  },
+  {
+    "days": [
+      {
+        "day": "Martedi",
+        "time": "15.30"
+      },
+      {
+        "day": "Giovedi",
+        "time": "15.30"
+      }
+    ],
+    "id":"campi-e-campioni",
+    "title": "Campi e campioni",
+    "description": "Molte volte lo sport riesce ad essere veicolo di cultura e inclusione. Per questo ne celebriamo discipline e protagonisti nella nostra rubrica sportiva.",
+    "fullDescription":"<p>Che lo sport sia emozionante per chi ne è appassionato e, nel contempo, utile alla salute di chi lo pratica, è cosa risaputa. Ma non è tutto qui. <strong>Allo sport va riconosciuta la capacità di unire, di socializzare, di essere veicolo culturale e di favorire l'inclusione</strong>. Si pensi ai Giochi Paralimpici che, attraverso la televisione, hanno portato nelle case della gente l'immagine di atleti con disabilità vincenti, protagonisti delle proprie sfide e lontani dal radicato stereotipo di persone fragili e dipendenti dagli altri.</p><p>È questo <strong>lo sport sano che <em>Radio FinestrAperta</em> celebra attraverso la trasmissione <em>Campi e Campioni</em></strong>, condotta da appassionati ed esperti, con la partecipazione dei protagonisti delle varie discipline sportive.</p><p ><em>Campi e Campioni</em> non vuol essere un programma di nicchia, pertanto al suo interno <strong>si parla di discipline paralimpiche e tradizionali in egual maniera</strong>. Dagli aggiornamenti sulle partite del campionato di calcio agli ultimi traguardi della nazionale di wheelchait hockey, dalla biografia di Schumacher a quella di Zanardi: lo sport ci piace tutto, senza distinzioni.</p><p><em>Campi e Campioni</em>: martedì e giovedì alle 15:30.</p>",
+    "image": "assets/img/podcasts/campi_e_campioni.png"
+  },
+  {
+    "days": [
+      {
+        "day": "Mercoledi",
+        "time": "11.30"
+      },
+      {
+        "day": "Domenica",
+        "time": "11.30"
+      }
+    ],
+    "id":"il-granello-di-sale",
+    "title": "Il granello di sale",
+    "description": "Il talk show in cui vengono approfondite e commentate le tematiche care al mondo del sociale.",
+    "fullDescription":"<p>Un vecchio trucco dei conduttori radiofonici, che devono passare molto tempo al microfono, è quello di far sciogliere un granello di sale in bocca. Pare faccia bene alle corde vocali. Da questo aneddoto il titolo del programma del mercoledì:<em><strong> Il Granello di Sale</strong></em>.</p><p><em>Il Granello di Sale</em> è un talk show, una trasmissione dal ritmo rilassato, in cui vengono approfondite le tematiche care a <em>Radio FinestrAperta</em>. Spesso e volentieri vi è la presenza di ospiti del mondo del sociale, nonché della cultura: operatori del terzo settore, ma anche artisti di vario genere, che si concedono ad interviste informali e mai scontate. Previsto anche l’intervento del pubblico, che può interagire coi conduttori.</p><p><em>Il Granello di Sale</em>: mercoledì alle 11:30; domenica alle 11:30.</p>",
+    "image": "assets/img/podcasts/il_granello_di_sale.png"
+  },
+  {
+    "days": [
+      {
+        "day": "Mercoledi",
+        "time": "15.30"
+      },
+      {
+        "day": "Domenica",
+        "time": "09.00"
+      }
+    ],
+    "id":"spazio-libero",
+    "title": "Spazio libero",
+    "description": "Al bando le voci impostate, i tempi da rispettare, i dogmi della corretta radiofonia. Quello che qui conta davvero è che tutti hanno diritto a dire la loro, anche se non sono degli speaker professionisti.",
+    "fullDescription":"<p>Non tutti nascono speaker professionisti e non tutti lo vogliono diventare, ma magari hanno molto da dire. Per loro c'è <em>Spazio Libero</em>, un momento dedicato completamente alla <strong>libera espressione</strong>, senza l'obbligo di rispettare i dogmi della corretta radiofonia. Quello che qui conta davvero è che, al di là delle proprie abilità, tutti hanno diritto a dire la loro. Basta l'entusiasmo.</p><p><em>Spazio Libero</em>, mercoledì alle 15:30; domenica alle 9:00.</p>",
+    "image": "assets/img/podcasts/spazio_libero.png"
+  },
+  {
+    "days": [
+      {
+        "day": "Giovedi",
+        "time": "11.30"
+      },
+      {
+        "day": "Sabato",
+        "time": "11.30"
+      }
+    ],
+    "id":"felici-a-tavola",
+    "title": "Felici a tavola",
+    "description": "La rubrica del gusto, con un occhio di riguardo al benessere. L’universo culinario viene esplorato con l’aiuto di chef e medici della nutrizione.",
+    "fullDescription":"<p>Due sono i temi cardine di <em>Felici a Tavola</em>: la cucina e la salute, argomenti ritenuti da molti poco conciliabili. Invece il connubio tra buona tavola e benessere psicofisico è possibile, come ci dimostrano gli esperti del mondo culinario (chef, ristoratori, studiosi della materia) e della medicina (nutrizionisti, dietologi, medici specializzati in disfagia).</p><p>Esistono patologie che rendono complesso l'approccio al cibo, causando frustrazione verso un atto importante e potenzialmente piacevole come quello del nutrirsi. Cercheremo, grazie a nostre ricerche e con l'aiuto degli esperti, di venire incontro a queste esigenze, con la speranza di essere tutti <em>Felici a Tavola</em>!</p><p><em>Felici a Tavola</em>: giovedì alle 11:30; lunedì alle 11:30.</p>",
+    "image": "assets/img/podcasts/felici_a_tavola.png"
+  },
+  {
+    "days": [
+      {
+        "day": "Venerdi",
+        "time": "15.00"
+      },
+      {
+        "day": "Sabato",
+        "time": "19.00"
+      }
+    ],
+    "id":"note-a-margine",
+    "title": "Note a margine",
+    "description": "Lo spazio dedicato alla musica, con informazioni, classifiche e interviste agli artisti.",
+    "fullDescription":"<p>Musica, musica, nient'altro che musica. <strong><em>Note a Margine</em></strong> parla di quella forma d'arte imprescindibile per una radio e lo fa con la passione di chi la musica la ama.</p><p >Insieme ai conduttori, sono spesso presenti <strong>personaggi del mondo delle sette note</strong> in veste di ospiti, per svelare i retroscena dell'uscita di un album, spiegare la gestazione di una canzone, raccontare l'ispirazione per la nascita di un complesso.</p><p>Completano l'offerta di <em>Note a Margine</em> <strong>le classifiche, le notizie, gli approfondimenti per scoprire le mille sfaccettature dei generi musicali.</strong></p><p><em>Note a Margine</em>: venerdì alle 15:00; sabato alle 19:00.</p>",
+    "image": "assets/img/podcasts/note_a_margine.png"
+  }
+]

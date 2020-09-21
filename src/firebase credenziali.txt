@@ -1,0 +1,20 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyApQnaOrHbH-ftI7rMWMHHpA4Hj8U0HKnI",
+    authDomain: "finestraperta-e7149.firebaseapp.com",
+    databaseURL: "https://finestraperta-e7149.firebaseio.com",
+    projectId: "finestraperta-e7149",
+    storageBucket: "finestraperta-e7149.appspot.com",
+    messagingSenderId: "779872423044",
+    appId: "1:779872423044:web:705898bd796aa48fff06d1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>

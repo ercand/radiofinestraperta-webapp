@@ -1,24 +1,46 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import {  Route, Switch, useHistory } from 'react-router-dom';
+
+import './App.scss';
+import BottomRadioWidget from './components/BottomRadioWidget';
+import Drawer from './components/Drawer';
+import Home from './components/Home';
+import Palinsesto from './components/palinsesto/Palinsesto';
+import PalinsestoDetails from './components/palinsesto/PalinsestoDetails';
+import PodcastList from './components/podcast/PodcastList';
+
 
 function App() {
+  let history = useHistory();
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const OpenDrawerHandler = () => {
+    setIsDrawerOpen(true);
+  }
+
+  const CloseDrawerHandler = () => {
+    setIsDrawerOpen(false);
+  }
+
+  const OnCickDrawerMenuHandler = (index: string) => {
+    history.push(index)
+    setIsDrawerOpen(false);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <div className="content">
+        <Switch>
+          <Route exact path="/" component={Home}  />
+          <Route exact path="/PalinsestoDetails/:slug" component={PalinsestoDetails} />
+          <Route exact path="/Palinsesto" component={Palinsesto} />
+          <Route exact path="/Podcasts" component={PodcastList} />
+        </Switch>
+      </div>
+      <div style={{ position: "fixed", bottom: "0px", width: "100%" }}>
+        <BottomRadioWidget onClick={OpenDrawerHandler} />
+        <Drawer isOpen={isDrawerOpen} onClickMenu={OnCickDrawerMenuHandler} onClick={CloseDrawerHandler} />
+      </div>
     </div>
   );
 }

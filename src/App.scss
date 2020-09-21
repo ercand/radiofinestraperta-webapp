@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
+/* Color Theme Swatches in Hex */
+$Carbon-red-grey-1-hex: #5C5C5C;
+$Carbon-red-grey-2-hex: #E41318;
+$Carbon-red-grey-3-hex: #D5D5DB;
+$Carbon-red-grey-4-hex: #333333;
+
+$text-color: #FFFFFF;
+$textColorYellow: #fdcb03;
+
+$background-color:#283644;
+$BackgroundColor2: #11161c;
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  height: 100vh;
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+  color: $text-color;
+  background-color: $background-color;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  border: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main .content {
+  //padding: 20px;
+  padding-bottom: 80px;
+}
+
+.content iframe.mixcloud-podcast {
+  width: 100%;
+}
+
+.bottom-bar-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ed1a3b;
+  height: 80px;
+}
+
+.nav-item {
+  display: flex;
+}
+
+
+.bottom-bar-navigation .img-cover img {
+  height: 80px;
+  max-width: 80px;
+}
+
+.nav-item .player-box {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.nav-item .player-box .song-info {
+  padding-right: 10px;
+}
+
+.nav-item .player-box .song-info .artist-name {
+  padding-right: 10px;
+  font-size: 14px;
+}
+
+.nav-item .player-box .song-info .song-name {
+  padding-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Drawer */
+.drawer {
+  height: 100%;
+  background: white;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.drawer.open {
+  transform: translateY(0);
+}
+
+.drawer .close-button {
+  text-align: right;
+  padding: 8px;
+  height: 80px;
+  background-color: #ed1a3b;
+}
+
+.drawer .menu {
+  background-color: #ed1a3b;
+}
+
+.drawer .menu li {
+  font-size: 22px;
+  list-style-type: none;
+  padding: 22px;
+}
+
+.drawer .menu li:hover {
+  background-color: #a74f4f;
+}
+
+/**/
+
+/* Palinsesto */
+.palinsesto {
+  h3 {
+    text-align: left;
+    font-size: 26px;
+  }
+
+  .palinsesto-header {
+    padding: 1px 10px;
+
+    p {
+      border-bottom: 1px solid white;
+      padding-bottom: 15px;
+      font-size: 16px;
+    }
+
+    .palinsesto-navbar {
+
+      ul {
+        padding: 10px;
+        border-radius: 30px;
+        background-color: $BackgroundColor2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        margin-bottom: 10px;
+
+
+        li {
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 15px 0;
+          flex-basis: 14%;
+        }
+
+        li.active {
+          color: $textColorYellow;
+        }
+      }
+    }
+  }
+
+  .palinsesto-list {
+    padding: 0px 10px;
+
+    .palinsesto-list-item {
+      display: flex;
+      position: relative;
+      padding: 20px 0px;
+
+      .palinsesto-item-timer {
+        /*   background-color: #292A2B; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: $textColorYellow;
+        font-size: 12px;
+        padding: 0px 10px;
+
+        &::after {
+          position: absolute;
+          content: '';
+          width: 1px;
+          background-color: $Carbon-red-grey-3-hex;
+          height: 100%;
+          top: 0;
+          left: 30px;
+          z-index: -3;
+        }
+
+        p {
+          background-color: $BackgroundColor2;
+          padding: 5px;
+          border-radius: 5px;
+        }
+      }
+
+      .palinsesto-desc {
+        .palinsesto-item-header {
+          background-color: #f1f1f1;
+        }
+
+
+        .palinsesto-title {
+          font-weight: 600;
+        }
+
+        .palinsesto-title,
+        .palinsesto-title a:visited,
+        .palinsesto-title a:link {
+          font-size: 22px;
+          font-weight: 600;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+/*palinsesto-details*/
+.palinsesto-details img {
+  width: 100%;
+}
