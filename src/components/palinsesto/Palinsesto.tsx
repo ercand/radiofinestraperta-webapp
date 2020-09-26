@@ -103,7 +103,7 @@ const Palinsesto = () => {
                                     </div>
                                     <div className="palinsesto-desc">
                                         <div className="palinsesto-title">
-                                            <Link to={`/PalinsestoDetails/${day.id}`}>{day.title}</Link>
+                                            <Link to={`/Programmi/${day.id}`}>{day.title}</Link>
                                         </div>
                                         <p>{day.description}</p>
                                     </div>

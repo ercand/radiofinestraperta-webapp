@@ -7,7 +7,7 @@ import BottomRadioWidget from './components/BottomRadioWidget';
 import Drawer from './components/Drawer';
 import Home from './components/Home';
 import Palinsesto from './components/palinsesto/Palinsesto';
-import PalinsestoDetails from './components/palinsesto/PalinsestoDetails';
+import Programmi from './components/programmi/Programma';
 import PodcastList from './components/podcast/PodcastList';
 
 
@@ -32,7 +32,7 @@ function App() {
       <div className="content">
         <Switch>
           <Route exact path="/" component={Home}  />
-          <Route exact path="/PalinsestoDetails/:slug" component={PalinsestoDetails} />
+          <Route exact path="/Programmi/:slug" component={Programmi} />
           <Route exact path="/Palinsesto" component={Palinsesto} />
           <Route exact path="/Podcasts" component={PodcastList} />
         </Switch>

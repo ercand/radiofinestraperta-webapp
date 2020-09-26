@@ -1,7 +1,7 @@
 import { DaysEnum } from "./DaysEnum";
 
 
-export type PalinsestoData = {
+export interface PalinsestoData {
     id: string;
     days: Day[];
     title: string;
