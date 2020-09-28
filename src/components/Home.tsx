@@ -1,48 +1,69 @@
 import React, { useEffect, useState } from 'react';
-import ShowMoreSpinnerLoad from './ShowMoreSpinnerLoad';
 
+
+const parseHistorySongs = () => {
+    let headers = new Headers();
+
+    /*  headers.append('Content-Type', 'application/json');
+      headers.append('Accept', 'application/json');
+      headers.append('Access-Control-Allow-Origin', 'https://www.aionbot.net/radio');
+      headers.append('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+      headers.append('Access-Control-Allow-Headers', 'Content-Type, Authorization');*/
+    const url = "https://www.aionbot.net/radio";
+
+    // Website you wish to allow to connect
+    headers.append('Access-Control-Allow-Origin', "*");
+
+    // Request methods you wish to allow
+//    headers.append('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+
+    // Request headers you wish to allow
+//    headers.append('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+//    headers.append("Content-Type", "application/json");
+    // Set to true if you need the website to include cookies in the requests sent
+    // to the API (e.g. in case you use sessions)
+    //   headers.append('Access-Control-Allow-Credentials', 'false');
+    var result44 = fetch(url)
+        .then(resp => {
+            console.log(resp)
+            return resp.json()
+        })
+        .then(r2 => {
+            console.log(r2)
+            return r2
+        });
+
+}
 
 const Home = () => {
     const [useUno, setUseUno] = useState(0);
-    const [useDue, setUseDue] = useState<number[]>([]);
-    const [maxElement, setMaxElement] = useState(0);
-    const [caricamento, setCaricamento] = useState(false);
+    parseHistorySongs()
+    /*
+        useEffect(() => {
+            console.log("use effect 2")
+         //   setUseDue(useDue + 1);
+        })*/
 
-    useEffect(() => {
-        setUseDue([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 
-        const caricaLento =  async ()=> {
-            
-        }
-        console.log("use effect 1")
-    },[])
 
-/*
-    useEffect(() => {
-        console.log("use effect 2")
-     //   setUseDue(useDue + 1);
-    })*/
-
-    const ShowMore = () => {
-        setCaricamento(true)
-        setTimeout(() => {
-            console.log("timer")
-            setMaxElement(maxElement + 2);
-            setCaricamento(false);
-        }, 2000)
-    }
-    
     return (
-        <div className="">
-            <h1>Element rendered {maxElement}</h1>
-            {useDue.slice(0, maxElement).map((el, idx) => {
-                return (
-                    <div key={idx}>el</div>
-                )
-            })}
-            <p>{caricamento && "Loading"}</p>
-            <p onClick={ShowMore}>Show more</p>
-            <ShowMoreSpinnerLoad isLoading={caricamento} loaderSize={3} />
+        <div className="home-player">
+            <div className="player-header">
+                <div className="cover">
+                    <img src="http://static.stereogum.com/blogs.dir/2/files/2011/12/Adele-21.jpg" alt="" className="cover-img" />
+                </div>
+            </div>
+            <div className="recent-song">
+                <div className="song-box">
+                    <div className="song-cover">
+                        <img src="http://static.stereogum.com/blogs.dir/2/files/2011/12/Adele-21.jpg" alt="song-cover" />
+                    </div>
+                    <div className="song-info">
+                        <h4 className="song name">Upside Down</h4>
+                        <p className="song-author">Jack Johnson</p>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
