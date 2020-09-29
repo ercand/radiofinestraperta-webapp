@@ -1,5 +1,6 @@
 import { PalinsestoData } from "./types/PalinsestoData";
 import { PodcastData } from "./types/PodcastData";
+import { SoundHistory } from "./types/SoundHistory";
 
 
 export const LoadPalinsestoAsync = async (): Promise<PalinsestoData[]> => {
@@ -23,6 +24,18 @@ export const LoadPodcastAsync = async (): Promise<PodcastData[]> => {
     catch (error) {
         console.log("Errore in LoadPodcastJson", error);
         return {} as PodcastData[];
+    }
+}
+
+export const LoadSoundHistoryAsync = async (): Promise<SoundHistory[]> => {
+    try {
+        let response = await fetch("https://www.aionbot.net/radio");
+        let result: SoundHistory[] = await response.json();
+        return result;
+    }
+    catch (error) {
+        console.log("Errore in LoadSoundHistoryAsync", error);
+        return {} as SoundHistory[];
     }
 }
 /*

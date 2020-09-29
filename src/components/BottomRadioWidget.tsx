@@ -10,7 +10,7 @@ type ButtonRadiowidgetProps = {
   
 const BottomRadioWidget = (props:ButtonRadiowidgetProps) => {
     const url = "https://nr6.newradio.it/proxy/sexionel?mp=/stream";//("http://94.23.67.172:9114/stream.mp3");
-    const [audio] = useState(new Audio(url));
+    const [audio,setAudio] = useState(new Audio(url));
     const [isPlaying, setIsPlaying] = useState<boolean>(false);
 
 
