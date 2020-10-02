@@ -1,51 +1,41 @@
-import React, { useEffect, useState } from 'react';
-import { LoadSoundHistoryAsync } from '../API';
+import React, { Fragment } from 'react';
 import { SoundHistory } from '../types/SoundHistory';
 
-const Home = () => {
-    const [songHistoryData, setSongHistoryData] = useState<SoundHistory[]>([]);
+interface HomeProps {
+    songHistoryData: SoundHistory[];
+    isPlaying: boolean;
+}
 
-    useEffect(() => {
-
-        async function LoadSongHistory() {
-            const songHistory = await LoadSoundHistoryAsync();
-            setSongHistoryData(songHistory);
-            console.log(songHistory)
-
-        }
-        LoadSongHistory();
-    }, [])
-
-
+const Home = (props: HomeProps) => {
 
     return (
         <div className="home-player">
             <div className="player-header">
-                <div className="cover">
-                    <img src="http://static.stereogum.com/blogs.dir/2/files/2011/12/Adele-21.jpg" alt="" className="cover-img" />
+                <div className={`cover ${props.isPlaying ? "isPlay" : ""}`}>
+                    {props.songHistoryData &&props.songHistoryData.length>0 &&
+                        <img src={props.songHistoryData[0].coverUrl} alt="" className="cover-img" />
+                    }
                 </div>
             </div>
             <div className="recent-song">
-                {songHistoryData &&
-                    songHistoryData.map((e, idx) => {
-                        if (idx === 0) {
-                        }
-                        else {
+                {props.songHistoryData &&
+                    props.songHistoryData.map((e, idx) => {
+                        if (idx !== 0) {
                             return (
                                 <div className="song-box" key={`song-box${idx}`}>
                                     <div className="song-cover">
-                                        <img src="http://static.stereogum.com/blogs.dir/2/files/2011/12/Adele-21.jpg" alt="song-cover" />
+                                        <img src={e.coverUrl === "" ? "./assets/img/music-player.png" : e.coverUrl} alt="song-cover" />
                                     </div>
                                     <div className="song-info">
                                         <h4 className="song name">{e.title}</h4>
-                                        <p className="song-author">{e.author.toLowerCase()}</p>
+                                        <p className="song-author">{e.author}</p>
                                     </div>
                                 </div>
                             )
                         }
+                        else return <Fragment key={`song-box${idx}`}></Fragment>
                     })
                 }
-
             </div>
         </div>
     );
